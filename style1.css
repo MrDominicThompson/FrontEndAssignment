@@ -1,5 +1,261 @@
 body {
+background-color: blue;
+}
+
+#mobile {
+	width: 20%;
+	height: 10%;
+	padding: 10;
+	padding-bottom: 15;
+	margin: 0;
+	display: block;
+	background-color: black;
+}
+#others {
+	display: none;
+}
+a {
+	color: aliceblue;
+	padding: 10;
+	margin: 20;
+}
+h1 {
+	color: aliceblue;
+	text-align: center;
+}
+form {
+	text-align: center;
+}
+.bold {
+	font-weight: bold;
+	color: aliceblue;
+}
+#courseConnect {
+	float: left;
+	width: 50%;
+}
+#courseConnectInfo {
+	text-align: center;
+	color: aliceblue;
+	float: left;
+	width: 50%;
+}
+#contactForm {
+	text-align: center;
+	color: aliceblue;
+}
+.button {
+	cursor: pointer;
+}
+.centerCircleImage {
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#homepageDiv {
+    overflow: hidden;
+    height: 500px;
+    width: 600px;
+    margin-right: 0;
+}
+#registerDiv {
+    overflow: hidden;
+    height: 500px;
+    width: 600px;
+    margin-right: 0;
+}
+#loginDiv {
+    overflow: hidden;
+    height: 500px;
+    width: 600px;
+    margin-right: 0;
+}
+#profileDiv {
+	overflow: hidden;
+    height: 500px;
+    width: 600px;
+    margin-right: 0;
+}
+#privateMessageDiv {
+    overflow: hidden;
+    height: 500px;
+    width: 600px;
+    margin-right: 0;
+}
+#talkDiv {
+    overflow: hidden;
+    height: 500px;
+    width: 600px;
+    margin-right: 0;
+}
+.onHoverText {
+	text-align: center;
+	color: aliceblue;
+	position: relative;
+	z-index: 1;
+}
+#homepageDiv:hover > #homepageText {
+	display: block;
+	top: -100%;
+}
+#registerDiv:hover > #registerText {
+	display: block;
+	top: -100%;
+}
+#loginDiv:hover > #loginText {
+	display: block;
+	top: -100%;
+}
+#profileDiv:hover > #profileText {
+	display: block;
+	top: -100%;
+}
+#privateMessageDiv:hover > #privateMessageText {
+	display: block;
+	top: -100%;
+}
+#talkDiv:hover > #talkText {
+	display: block;
+	top: -100%;
+}
+.courseConnect {
+	width: 100%;
+	height: 100%;
+}
+#infoAboutMe {
+	color: aliceblue;
+}
+@media screen and (min-width: 600px) {
+body {
 	background-color: maroon;
+}
+#mobile {
+	display: none;
+}
+#others{
+	width: 100%;
+	padding: 10;
+	padding-right: 15;
+	margin: 0;
+	display: block;
+	background-color: black;
+}
+a {
+	color: aliceblue;
+	padding: 10;
+	margin: 20;
+}
+h1 {
+	color: aliceblue;
+	text-align: center;
+}
+form {
+	text-align: center;
+}
+.bold {
+	font-weight: bold;
+	color: aliceblue;
+}
+#courseConnect {
+	float: left;
+	width: 50%;
+}
+#courseConnectInfo {
+	text-align: center;
+	color: aliceblue;
+	float: left;
+	width: 50%;
+}
+#contactForm {
+	text-align: center;
+	color: aliceblue;
+}
+.button {
+	cursor: pointer;
+}
+.centerCircleImage {
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#homepageDiv {
+    overflow: hidden;
+    height: 500px;
+    width: 600px;
+    margin-right: 0;
+}
+#registerDiv {
+    overflow: hidden;
+    height: 500px;
+    width: 600px;
+    margin-right: 0;
+}
+#loginDiv {
+    overflow: hidden;
+    height: 500px;
+    width: 600px;
+    margin-right: 0;
+}
+#profileDiv {
+	overflow: hidden;
+    height: 500px;
+    width: 600px;
+    margin-right: 0;
+}
+#privateMessageDiv {
+    overflow: hidden;
+    height: 500px;
+    width: 600px;
+    margin-right: 0;
+}
+#talkDiv {
+    overflow: hidden;
+    height: 500px;
+    width: 600px;
+    margin-right: 0;
+}
+.onHoverText {
+	text-align: center;
+	color: aliceblue;
+	position: relative;
+	z-index: 1;
+}
+#homepageDiv:hover > #homepageText {
+	display: block;
+	top: -100%;
+}
+#registerDiv:hover > #registerText {
+	display: block;
+	top: -100%;
+}
+#loginDiv:hover > #loginText {
+	display: block;
+	top: -100%;
+}
+#profileDiv:hover > #profileText {
+	display: block;
+	top: -100%;
+}
+#privateMessageDiv:hover > #privateMessageText {
+	display: block;
+	top: -100%;
+}
+#talkDiv:hover > #talkText {
+	display: block;
+	top: -100%;
+}
+.courseConnect {
+	width: 100%;
+	height: 100%;
+}
+}
+@media screen and (min-width: 800px) {
+	body {
+	background-color: green;
 }
 nav {
 	width: 100%;
@@ -118,4 +374,5 @@ form {
 .courseConnect {
 	width: 100%;
 	height: 100%;
+}
 }
